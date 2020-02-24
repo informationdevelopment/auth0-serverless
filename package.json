@@ -1,0 +1,30 @@
+{
+  "name": "@informationdevelopment/auth0-serverless",
+  "version": "0.1.0",
+  "description": "Auth0 authentication for serverless functions",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/informationdevelopment/auth0-serverless.git"
+  },
+  "keywords": [
+    "serverless",
+    "auth0",
+    "lambda",
+    "netlify",
+    "aws",
+    "gcp",
+    "azure",
+    "functions"
+  ],
+  "author": "Information Development, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/informationdevelopment/auth0-serverless/issues"
+  },
+  "homepage": "https://github.com/informationdevelopment/auth0-serverless#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.7.0"
+  }
+}
