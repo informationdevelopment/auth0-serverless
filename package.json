@@ -1,6 +1,6 @@
 {
   "name": "@informationdevelopment/auth0-serverless",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Auth0 authentication for serverless functions",
   "main": "src/index.js",
   "repository": {
