@@ -17,7 +17,7 @@ const client = auth0.createClient(
     'https://example.azurewebsites.net/api' // API identifier (audience)
 );
 
-module.exports = client.auth('read:movies', async (context, req) => {
+module.exports = client.authorize('read:movies', async (context, req) => {
     return db.getMovies();
 });
 ```
